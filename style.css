@@ -1,0 +1,373 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 39px;
+	font-weight:bold;
+    font-family:'Open Sans', sans-serif;
+	color:#FFF;
+}
+h2 p{
+    font-size:52px;
+    font-family:'Open Sans', sans-serif;
+	color:#fff;
+	font-weight: normal;
+	
+}
+h3{
+    font-size: 30px;
+    font-family:'Open Sans', sans-serif;
+	color:#fff;
+	font-weight:100;
+}
+p{
+    font-size: 12px;
+    line-height: 19px;
+}
+ul, ol {list-style: none}
+.container{
+	margin: 0 auto;
+	width:1600px;
+	height:auto;
+	border:1px solid black;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #333333;
+    width: 1600px;
+    height: 78px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+	padding:0px;
+	width:1194px;
+}
+.nav li{
+	height: 27px;
+	border-left: 1px solid rgba(173,173,173, .5);	
+	margin-top:6px;
+}
+
+.left {
+	 flex: 372px;
+	 text-align:right;
+	 height: 45px;
+	 position: relative;
+     top: 6px;
+}
+.right {
+	 flex:1228px;
+	 height: 60px;
+}
+ 
+.download {
+	 width: 181px;
+     border: 2px solid 282828;
+     border-radius: 9px;
+	 text-align:right;
+	 background:#282828;
+	 position: relative;
+     top: -4px;
+	 height:45px;
+	 margin-left:90px;
+}
+.download a {
+    position: relative;
+    top: 10px;
+	
+}
+.download img {
+    position: relative;
+    top: 12px;
+	
+}
+.download-center {
+	 width: 181px;
+     border: 2px solid #178bc1;
+     border-radius: 9px;
+	 text-align:center;
+	 background:#178bc1;
+	 position: relative;
+	 top: 131px;
+     height: 45px;
+	 margin-left:90px;
+}
+.download-center a {
+	margin: 23px;
+    position: relative;
+    top: 10px;
+	
+}	
+a{
+    margin: 15px;
+    color:#adadad;
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+}
+.playpause{
+	background-image: url("images/play.png");
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 45%;
+    margin: auto;
+    background-size: contain;
+    background-position: center
+}
+.video {
+    width: 100%;
+}
+.banner-area{
+    position: relative;
+    background-image: url("images/b1.jpg");
+    width: 100%;
+    height: 1395px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-area .homecenter{
+	width: 100%;
+    height: 877px; 
+
+}
+.banner-area .slide1{
+	width: 100%;
+    height: 513px;
+	display:flex;
+}
+.banner-area .slide1 .leftslide{
+	flex: 300px;
+    height: 513px;
+	text-align: center;
+    padding: 13% 0px;
+	color:#FFF;
+	 
+}
+.banner-area .slide1 .rightslide{
+	flex: 300px;
+    height: 513px; 
+}
+.banner-area .slide1 .rightslide .slider{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 42%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+.solution{
+	width: 100%;
+    height: 677px; 
+
+}
+.solution .slide1{
+	width: 100%;
+    height: 513px;
+	display:flex;
+}
+.tabsport-area .slide1{
+	width: 100%;
+    height: 513px;
+	display:flex;
+}
+.tabsport-area .slide1 .solnleft{
+	flex: 300px;
+    height: 513px;
+	text-align: left;
+    padding-left: 18%;
+	color:#FFF;
+	 
+}
+
+.tabsport-area .slide1 .solnright{
+	flex: 583px;
+    height: 509px; 
+	color:#FFF;
+	padding: 1% 0% 0% 0%;
+}
+
+.solution .slide1 .solnleft{
+	flex: 300px;
+    height: 513px;
+	text-align: left;
+    padding-left: 18%;
+	color:#FFF;
+	 
+}
+.solution .slide1 .solnright{
+	flex: 583px;
+    height: 509px; 
+	color:#FFF;
+	padding: 1% 0% 0% 0%;
+}
+
+.solution .slide1 .solnright .slider {
+	 width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 42%;
+    left: 0px;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+	color:#FFF;
+}
+.solution .slide1 .solnright .slider p {
+	color:#fff;
+}
+.slider ul, .slider ul li {width: 100%; height: 100%}
+.slider ul {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+.slider ul li {
+    text-align: left;
+    line-height: 45px;
+    font-size: 50px;
+    color: #aaa
+}
+ 
+.slider ol {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    padding-right: 15px;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+.slider ol li {
+    width: 12px;
+    height: 12px;
+	border-radius:12px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255,.3);
+    cursor: pointer;
+	border: 1px solid silver;
+}
+.slider ol li:hover, .slider ol li.active {
+    background: #eee
+}
+
+.banner-area .slide1 .rightslide ul li{
+	list-style-type:none;
+	color:#FFF;
+	 
+}
+.solution, .tabsport-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+section  h2{
+	text-align:center;
+	color:#FFF;
+}
+.text-part{
+    width: 50%;
+    height: 80%;
+}
+.text-part .slider {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 42%;
+    left: 0px;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+	color:#FFF;
+}
+.text-part .slider p {
+	color:#fff;
+	padding-top: 3px;
+}
+.solution{
+    background-image: url("images/b2.jpg");
+    background-repeat: repeat-x;
+}
+.tabsport-area{
+    color: #fff;
+	background-image: url("images/b3.jpg");
+    background-repeat: repeat-x;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 540px;
+    
+}
+.tab .tablinks{
+	 color: #fff!important;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+ 
